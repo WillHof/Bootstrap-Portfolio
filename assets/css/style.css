@@ -1,0 +1,27 @@
+#Will{
+    height:259px;
+    width:172px;
+}
+body{
+    background-image: url("../images/hexellence.png")
+}
+.container{
+    background: white
+}
+.navbar-brand{
+    background:#4aaaa5;
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
+}
+#myName{
+    color:white
+}
+#footer{
+    position:relative;
+    bottom:0px;
+    padding-right:0rem;
+    padding-left:0rem;
+}
+#mainContainer{
+    
+}
