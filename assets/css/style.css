@@ -6,7 +6,7 @@ body{
     background-image: url("../images/hexellence.png")
 }
 .container{
-    background: white
+    /* background: white */
 }
 .navbar-brand{
     background:#4aaaa5;
@@ -23,8 +23,13 @@ body{
     padding-left:0rem;
 }
 #mainContainer{
+    min-height: calc(100vh - 140px);
+    margin-top: 50px
 
 }
 h4{
     color:#4aaaa5
+}
+#white{
+    background:white
 }
