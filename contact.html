@@ -12,52 +12,69 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#" id="myName">William Hofstadter</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container-fluid" id="topContainer">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8" id="FTLeft">
+                            <h2>Will Hofstadter</h2>
+                        </div>
+                        <div class="col-md-4">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-white order-2 w-65">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">About Me</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="./portfolio.html" class="nav-link">Portfolio</a>
-                </li>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto ">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="./contact.html">Contact</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="./index.html">About Me</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a href="./portfolio.html" class="nav-link">Portfolio</a>
+                                        </li>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id=borderHeader></div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    </nav>
+    </div>
     <div class="container" id="mainContainer">
         <div class="row">
             <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h4 class="text-center">Contact</h4>
+                <div class="row" id="white">
+                    <div class="col-md-12">
+                        <h4>Contact</h4>
                     </div>
-                    <div class="col-md-9"></div>
                 </div>
-                <div class="row">
+                <div class="row" id="white">
                     <div class="col-md-12">
                         <form>
                             <div class="form-group"><label for="Name">Name</label>
-                                <input type="text" class="form-control" id="contactName">
+                                <input type="text" class="form-control" id="contactName" placeholder="Your Name Here">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="emailContact"
+                                    placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Enter your message here"></textarea>
+                            </div>
 
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address</label>
-                                    <input type="email" class="form-control" id="emailContact"
-                                        placeholder="name@example.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                        placeholder="Enter your message here"></textarea>
-                                </div>
                         </form>
                     </div>
                 </div>
@@ -65,15 +82,11 @@
         </div>
     </div>
     <div class="container-fluid" id="footer">
-        <div class="fixed-bottom">
-            <div class="card text-center" style="background:#666666;color:white;">
-                <div class="card-header">
-                    <p class="card-text">Copyright WH Inc.</p>
-                </div>
+        <div class="card text-center" style="background:#666666;color:white;">
+            <div class="card-header">
+                <p class="card-text">Copyright WH Inc.</p>
             </div>
         </div>
-    </div>
-    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

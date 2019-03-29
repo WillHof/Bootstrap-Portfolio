@@ -5,8 +5,11 @@
 body{
     background-image: url("../images/hexellence.png")
 }
-.container{
-    /* background: white */
+#topContainer{
+    background:white;
+    border-bottom-color: #4aaaa5;
+    border-bottom-style:solid
+
 }
 .navbar-brand{
     background:#4aaaa5;
@@ -21,13 +24,15 @@ body{
     bottom:0px;
     padding-right:0rem;
     padding-left:0rem;
+    border-top-style:solid;
+    border-top-color:#4aaaa5;
 }
 #mainContainer{
     min-height: calc(100vh - 140px);
     margin-top: 50px
 
 }
-h4{
+h4, h2{
     color:#4aaaa5
 }
 #white{
