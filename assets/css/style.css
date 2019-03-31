@@ -28,7 +28,7 @@ body{
     border-top-color:#4aaaa5;
 }
 #mainContainer{
-    min-height: calc(100vh - 140px);
+    min-height: calc(100vh - 158px);
     margin-top: 50px
 
 }
